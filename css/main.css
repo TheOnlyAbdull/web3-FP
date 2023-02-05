@@ -1,0 +1,103 @@
+/* -------------------------------------------- */
+/* Universal style */
+/* -------------------------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:  hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+}
+
+/* -------------------------------------------- */
+/* Navigation */
+/* -------------------------------------------- */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 3%;
+    border-bottom: 1px solid red;
+    font-size: 15px;
+    /* color: hsl(236, 13%, 42%) ;
+    color:hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%); */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin: 0 1.5rem;
+    text-decoration: none;
+    display: block;
+}
+header .menu{
+    display: none;
+}
+
+
+
+/* -------------------------------------------- */
+/* SECTION 1 */
+/* -------------------------------------------- */
+
+.big,.small{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+/* AT 700PX SCREEN SIZE */
+/* -------------------------------------------- */
+
+@media screen and (max-width : 700px) {
+    .nav-list{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu .line{
+        background: black;
+        width: 30px;
+        height: 3px;
+        margin: 6px 0;
+    }
+}

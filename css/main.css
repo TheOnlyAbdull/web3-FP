@@ -65,10 +65,12 @@ ul li a:hover{
 .new{
     color: hsl(35, 77%, 62%);
 }
-.small-text-1 h4{
+.small-text-1 .h4-2{
     color: hsl(36, 100%, 99%);
     margin-bottom: 1rem;
     margin-top: 2rem;
+    font-weight: 800;
+    font-size: 1rem;
 }
 .small-text-1 p{
     color: hsl(36, 100%, 99%);
@@ -136,7 +138,8 @@ button{
 }
 .sec2-h4{
     color: hsl(240, 100%, 5%);
-    font-weight: 800px;
+    font-weight: 800;
+    font-size: 1rem;
     margin-bottom: .7rem;
     transition: .4s;
     cursor: pointer;

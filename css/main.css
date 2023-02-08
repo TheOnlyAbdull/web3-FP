@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: white;
+    background: hsl(36, 100%, 99%);
     padding: .5rem 5%;
 }
 .nav-bar ul{
@@ -30,33 +30,123 @@ ul li a{
     margin: 0 1.5rem;
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: hsl(236, 13%, 42%);
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: hsl(5, 85%, 63%);
 }
 .menu{
     display: none;
 }
 
 
+/* -------------------------------------------- */
+/* SECTION 1 */
+/* -------------------------------------------- */
+.big-1,.small-1{
+    margin-top: 0;
+}
+.big-img-1{
+    width: 100%;
+    height: 45vh;
+    /* height: 40vh; */
+    display: block;
+}
+.big-img-1 img{
+    width: 100%;
+    height: 100%;
+}
+.small-text-1{
+    padding: 10% 5%;
+    height: 80vh;
+    background: hsl(240, 100%, 5%);
+}
+.new{
+    color: hsl(35, 77%, 62%);
+}
+.small-text-1 h4{
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.small-text-1 p{
+    color: hsl(36, 100%, 99%);
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+hr{
+    background-color: hsl(36, 100%, 99%) ;
+    height: 1px;
+    border: none;
+}
+.sub-text{
+    margin: 0;
+    padding: 3%;
+    /* border: 1px solid red; */
+    height: 40vh;
+}
+.sub-h1{
+    font-size: 3.4rem;
+    word-spacing: 4px;
+    font-weight: 800;
+}
+.sub-text-p{
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+    word-spacing: 2px;
+    letter-spacing: 1.4px;
+}
+button{
+    padding: .8rem 2.5rem;
+    background: hsl(5, 85%, 63%);
+    border: 0;
+    color: hsl(36, 100%, 99%) ;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------------------------------------------- */
+/* SECTION 2 */
+/* -------------------------------------------- */
+.sec2-row{
+    width: 95%;
+    margin: 0 auto;
+}
+.sec2-img{
+    /* width: 100%; */
+    height: 9rem;
+    display: block;
+}
+.sec2-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.sec2-text{
+    /* border: 1px solid red; */
+    height: 9rem;
+    overflow: hidden;
+}
+.sec2-h2{
+    color:hsl(236, 13%, 42%) ;
+    margin-bottom: .7rem;
+    font-size: 1.8rem;
+}
+.sec2-h4{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800px;
+    margin-bottom: .7rem;
+    transition: .4s;
+    cursor: pointer;
+}
+.sec2-h4:hover{
+    color: hsl(5, 85%, 63%);
+}
+.sec2-p{
+    font-size: 15px;
+    line-height: 1.5;
+}
 
 
 
@@ -67,7 +157,7 @@ ul li a{
 /* AT 700PX SCREEN SIZE */
 /* -------------------------------------------- */
 
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 900px) {
     .menu{
         display: block;
         transition: 0.4s;
@@ -112,4 +202,30 @@ ul li a{
         margin-bottom: 3rem ;
         text-align: center;
     }
+
+    .span-9-of-12,
+    .span-1-of-2,
+    .span-3-of-12{
+        width: 100%;
+        margin: 0;
+    }
+    .span-1-of-9,.span-2-of-9{
+        margin: 0;
+        width: 48%;
+    }
+    button{
+        margin-top: 1rem;
+    }
+    .sec2-img,.sec2-text{
+        margin-top: 1rem;
+    }
+    .sec2-text{
+        padding-left: .4rem;
+    }
+    .sub-text,
+    .small-text-1{
+        height: auto;
+    }
+
+
 }

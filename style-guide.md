@@ -38,5 +38,5 @@ Home New Popular Trending Categories The Bright Future of Web 3.0? We dive into 
 
 
 ## TODO
-1. Make the nav responsive
-2. add padding to the col
+1. Make the nav responsive --DONE
+2. add padding to the col  --DONE
